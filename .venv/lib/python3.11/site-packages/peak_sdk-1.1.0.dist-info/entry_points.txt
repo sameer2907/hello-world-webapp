@@ -1,0 +1,3 @@
+[console_scripts]
+peak=peak.cli.cli:typer_app
+

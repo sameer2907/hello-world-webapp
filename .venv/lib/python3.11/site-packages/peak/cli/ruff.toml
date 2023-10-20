@@ -1,0 +1,11 @@
+extend = '../../pyproject.toml'
+src = ["."]
+ignore = [
+  "UP007", # typer is not PEP-585 and PEP-604 compliant
+  "D208",
+  "FBT001",
+  "FBT002",
+  "FBT003",
+  "RSE102"
+]
+unfixable = []
